@@ -1,17 +1,7 @@
 # football_demo_demo
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# football_demo
+Сначало создал, entities:  поле, команда, свободный слот, расписание, матчи
+В модельке поле, генерирую свободные слоты в зависимости от рабочего времени поля. Далее модель "расписание" принимает  поле, команды и уже на основании свободных слотов 
+и временных предпочтений команд , генерирует матчи.
+Далее создал простой ui с помощью виджет Table  и использовал набор виджетов Draggable , все данные естественно dummy, использовал clean architecture и bloc.
+Сам блок фактически не подключал.
